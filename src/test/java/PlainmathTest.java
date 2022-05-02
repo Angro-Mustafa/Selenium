@@ -18,7 +18,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class RetalkTest {
+public class PlainmathTest {
     public WebDriver driver;
     
     @BeforeTest 
