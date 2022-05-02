@@ -1,2 +1,2 @@
-Name : <Mustafa Angro>
-Neptun_Code = <IZLJN5>
+// Name : <Mustafa Angro>
+// Neptun_Code = <IZLJN5>
