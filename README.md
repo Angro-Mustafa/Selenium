@@ -1,5 +1,5 @@
 # Big assignment
 
-Name : <Mustafa Angro>
+<Mustafa Angro>
 
-Neptun_Code = <IZLJN5>
+<IZLJN5>
