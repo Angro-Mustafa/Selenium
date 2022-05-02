@@ -1,5 +1,5 @@
 # Big assignment
 
-<Mustafa Angro>
+Mustafa Angro
 
-<IZLJN5>
+IZLJN5
