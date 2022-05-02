@@ -20,6 +20,7 @@ class SubmitPage extends PageBase {
     private By titleBy = By.xpath("//div[@class='_2wyvfFW3oNcCs5GVkmcJ8z']/textarea[@placeholder='Title']");
     private By postdescriptionBy = By.xpath("//table/tbody/tr[3]/td/div[1]/div[1]/div[2]/div");
     private By postButtonBy = By.xpath("//button[@id='ask_form_submit']");
+    private By checkbox = By.xpath("//input[@id='ask_form_notify']");
     
     public SubmitPage(WebDriver driver) {
         super(driver);
@@ -33,6 +34,7 @@ class SubmitPage extends PageBase {
         this.waitAndReturnElement(chooseCategory_DropDown).click();
         this.waitAndReturnElement(SecondaryChoice).click();
         this.waitAndReturnElement(postdescriptionBy).sendKeys(Question+"?");
+        this.waitAndReturnElement(checkbox).click();
         this.waitAndReturnElement(postButtonBy).click();
         this.wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[2]/div[4]")));
 

@@ -16,7 +16,7 @@ class LoginPage extends PageBase {
     private By loginButton = By.xpath("//div/a[@href='/login']");
     private By usernameInput = By.name("email");
     private By passwordInput = By.name("password");
-	private By loginSubmitButton = By.xpath("//div/form/table/tbody/tr[5]/td/input");
+    private By loginSubmitButton = By.xpath("//div/form/table/tbody/tr[5]/td/input");
 	
 	
 
